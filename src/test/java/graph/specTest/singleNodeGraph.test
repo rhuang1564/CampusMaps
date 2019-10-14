@@ -1,0 +1,11 @@
+# Tests adding a single node to the graph
+
+# Create a graph
+CreateGraph A
+
+# Add a node
+AddNode A node1
+
+# Print the nodes in the graph and checks its edges
+ListNodes A
+ListChildren A node1

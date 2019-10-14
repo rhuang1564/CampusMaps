@@ -1,0 +1,13 @@
+# Find a path between node and another node
+# but only edge going opposite way Dijkstra's algorithm
+# in a single edged graph
+
+created graph graph
+
+added node A to graph
+added node B to graph
+
+added edge 1.000 from A to B in graph
+
+path from B to A:
+no path found

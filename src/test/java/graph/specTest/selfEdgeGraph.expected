@@ -1,0 +1,14 @@
+# Tests adding a single node to the graph with a self edge
+
+# Create a graph
+created graph A
+
+# Add a node
+added node node1 to A
+
+# Add an edge
+added edge edge1 from node1 to node1 in A
+
+# Print the nodes in the graph and checks its edges
+A contains: node1
+the children of node1 in A are: node1(edge1)

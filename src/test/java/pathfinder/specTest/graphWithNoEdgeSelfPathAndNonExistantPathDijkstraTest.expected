@@ -1,0 +1,14 @@
+# Find a path between node and another node 
+# and node to itself in Dijkstra's algorithm
+# in a no edged graph
+
+created graph graph
+
+added node A to graph
+added node B to graph
+
+path from A to B:
+no path found
+
+path from A to A:
+total cost: 0.000

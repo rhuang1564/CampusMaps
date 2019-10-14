@@ -1,0 +1,17 @@
+# Find a path with Dijkstra's algorithm
+# in the graph with multiple paths and
+# tests rounding down for adding weight of path
+
+CreateGraph graph
+
+AddNode graph A
+AddNode graph B
+AddNode graph C
+AddNode graph D
+
+AddEdge graph A B 1.000399998
+AddEdge graph A C 1.000399999
+AddEdge graph C D 1.0000000015
+AddEdge graph B D 1.0000000015
+
+FindPath graph A D

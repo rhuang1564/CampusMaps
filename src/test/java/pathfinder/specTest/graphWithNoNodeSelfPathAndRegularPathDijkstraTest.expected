@@ -1,0 +1,11 @@
+# Find a path to nonexistant node and nonexistant self path
+# with Dijkstra's algorithm
+# in a no node and no edge graph
+
+created graph graph
+
+unknown node A
+unknown node A
+
+unknown node A
+unknown node B

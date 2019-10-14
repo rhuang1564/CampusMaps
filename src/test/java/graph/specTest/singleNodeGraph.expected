@@ -1,0 +1,11 @@
+# Tests adding a single node to the graph
+
+# Create a graph
+created graph A
+
+# Add a node
+added node node1 to A
+
+# Print the nodes in the graph and checks its edges
+A contains: node1
+the children of node1 in A are:

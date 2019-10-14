@@ -1,0 +1,24 @@
+# Tests alphabetical ordering of listening of a node with multiple edges between same node
+
+# Create a graph
+created graph A
+
+# Add a node
+added node node1 to A
+added node node2 to A
+
+# Add edges
+added edge edgeB from node1 to node2 in A
+added edge edgeA from node1 to node2 in A
+added edge edgeD from node1 to node2 in A
+added edge edgeC from node1 to node2 in A
+added edge edgeF from node2 to node1 in A
+added edge edgeG from node2 to node1 in A
+added edge edgeA from node2 to node1 in A
+added edge edgeB from node2 to node1 in A
+added edge edgeZ from node2 to node1 in A
+
+# Print the nodes in the graph and checks its edges
+A contains: node1 node2
+the children of node1 in A are: node2(edgeA) node2(edgeB) node2(edgeC) node2(edgeD)
+the children of node2 in A are: node1(edgeA) node1(edgeB) node1(edgeF) node1(edgeG) node1(edgeZ)

@@ -1,0 +1,22 @@
+/*
+This CSS file is configured to be imported into your entire application.
+See the beginning of index.js for how this works.
+You're welcome to put any CSS styles you might want in here, but you're not
+required to.
+
+You can also make and use your own CSS files, this is provided as a convenience.
+ */
+div {
+    margin: 2%;
+}
+h1 {
+    font-size: 24px;
+}
+#path-button {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#clear-button {
+    margin-top: 10px;
+}

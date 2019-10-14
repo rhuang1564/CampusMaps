@@ -1,0 +1,24 @@
+# adding nodes in reverse order and adding edges 
+# in non-alphabetical order to test if it prints 
+# out in alphabetical order
+
+# Create a graph
+CreateGraph A
+
+# Add two nodes in reverse order
+AddNode A b
+AddNode A a
+
+# Add five edges in non-alphabetical order
+AddEdge A a b AB2
+AddEdge A b b BB
+AddEdge A a b AB1
+AddEdge A b a BA
+AddEdge A a a AA
+AddEdge A a b AB3
+
+# Print the nodes in the graph, the outgoing edges from a, 
+# and outgoing edges from b
+ListNodes A
+ListChildren A a
+ListChildren A b

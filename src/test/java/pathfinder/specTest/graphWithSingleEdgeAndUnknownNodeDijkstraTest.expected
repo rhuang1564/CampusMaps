@@ -1,0 +1,16 @@
+# Find a path to nonexistant node with Dijkstra's algorithm
+# in a single edged graph
+
+created graph graph
+
+added node A to graph
+added node B to graph
+
+added edge 1.000 from A to B in graph
+
+unknown node E
+
+unknown node E
+
+unknown node E
+unknown node E

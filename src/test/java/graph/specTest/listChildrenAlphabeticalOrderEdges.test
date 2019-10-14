@@ -1,0 +1,24 @@
+# Tests alphabetical ordering of listening of a node with multiple edges between same node
+
+# Create a graph
+CreateGraph A
+
+# Add a node
+AddNode A node1
+AddNode A node2
+
+# Add edges
+AddEdge A node1 node2 edgeB
+AddEdge A node1 node2 edgeA
+AddEdge A node1 node2 edgeD
+AddEdge A node1 node2 edgeC
+AddEdge A node2 node1 edgeF
+AddEdge A node2 node1 edgeG
+AddEdge A node2 node1 edgeA
+AddEdge A node2 node1 edgeB
+AddEdge A node2 node1 edgeZ
+
+# Print the nodes in the graph and checks its edges
+ListNodes A
+ListChildren A node1
+ListChildren A node2

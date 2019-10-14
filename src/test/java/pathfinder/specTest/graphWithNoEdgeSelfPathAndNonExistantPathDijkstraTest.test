@@ -1,0 +1,12 @@
+# Find a path between node and another node 
+# and node to itself in Dijkstra's algorithm
+# in a no edged graph
+
+CreateGraph graph
+
+AddNode graph A
+AddNode graph B
+
+FindPath graph A B
+
+FindPath graph A A

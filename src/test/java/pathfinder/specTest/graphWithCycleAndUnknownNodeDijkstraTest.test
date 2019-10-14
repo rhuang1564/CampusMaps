@@ -1,0 +1,21 @@
+# Find a path to nonexistant node with Dijkstra's algorithm
+# with a cycle in the graph
+
+CreateGraph graph
+
+AddNode graph A
+AddNode graph B
+AddNode graph C
+AddNode graph D
+
+AddEdge graph A B 1.0
+AddEdge graph B C 1.0
+AddEdge graph D A 1.0
+AddEdge graph C A 1.0
+AddEdge graph C D 10.0
+
+FindPath graph A E
+
+FindPath graph E A
+
+FindPath graph E E

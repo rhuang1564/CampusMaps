@@ -1,0 +1,12 @@
+# Find a path between node and another node
+# but only edge going opposite way Dijkstra's algorithm
+# in a single edged graph
+
+CreateGraph graph
+
+AddNode graph A
+AddNode graph B
+
+AddEdge graph A B 1.0
+
+FindPath graph B A

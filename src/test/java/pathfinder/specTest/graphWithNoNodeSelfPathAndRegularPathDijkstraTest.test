@@ -1,0 +1,9 @@
+# Find a path to nonexistant node and nonexistant self path
+# with Dijkstra's algorithm
+# in a no node and no edge graph
+
+CreateGraph graph
+
+FindPath graph A A
+
+FindPath graph A B

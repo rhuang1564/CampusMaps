@@ -1,0 +1,24 @@
+# Tests adding a multiple edges between same node
+
+# Create a graph
+CreateGraph A
+
+# Add a node
+AddNode A node1
+AddNode A node2
+
+# Add edges
+AddEdge A node1 node2 edge1
+AddEdge A node1 node2 edge2
+AddEdge A node1 node2 edge3
+AddEdge A node1 node2 edge4
+AddEdge A node2 node1 edge1
+AddEdge A node2 node1 edge2
+AddEdge A node2 node1 edge3
+AddEdge A node2 node1 edge4
+AddEdge A node2 node1 edge5
+
+# Print the nodes in the graph and checks its edges
+ListNodes A
+ListChildren A node1
+ListChildren A node2

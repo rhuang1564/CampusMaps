@@ -1,0 +1,17 @@
+# Find a path with Dijkstra's algorithm
+# with a cycle in the graph and no path
+
+created graph graph
+
+added node A to graph
+added node B to graph
+added node C to graph
+added node D to graph
+
+added edge 1.000 from A to B in graph
+added edge 1.000 from B to C in graph
+added edge 1.000 from D to A in graph
+added edge 1.000 from C to A in graph
+
+path from A to D:
+no path found

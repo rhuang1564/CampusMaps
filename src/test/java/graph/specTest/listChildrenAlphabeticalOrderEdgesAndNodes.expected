@@ -1,0 +1,24 @@
+# adding nodes in reverse order and adding edges 
+# in non-alphabetical order to test if it prints 
+# out in alphabetical order
+
+# Create a graph
+created graph A
+
+# Add two nodes in reverse order
+added node b to A
+added node a to A
+
+# Add five edges in non-alphabetical order
+added edge AB2 from a to b in A
+added edge BB from b to b in A
+added edge AB1 from a to b in A
+added edge BA from b to a in A
+added edge AA from a to a in A
+added edge AB3 from a to b in A
+
+# Print the nodes in the graph, the outgoing edges from a, 
+# and outgoing edges from b
+A contains: a b
+the children of a in A are: a(AA) b(AB1) b(AB2) b(AB3)
+the children of b in A are: a(BA) b(BB)
